@@ -22,10 +22,10 @@ weatherForm.addEventListener('submit',(e)=>{
         }
         else
         {
-            console.log(data.location)
-            console.log(data.forecast)
-            // msg1.textContent=data.location
-            // msg2.textContent=data.forecast
+            // console.log(data.location)
+            // console.log(data.forecast)
+            msg1.textContent=data.location
+            msg2.textContent=data.forecast
         }
     })
 })
